@@ -5,15 +5,13 @@
       <div class="container" data-aos="fade-up">
 
           <div class="section-title">
-              <h2>Contact</h2>
-              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi
-                  quidem hic quas.</p>
+              <h2 class="margin">Contacto</h2>
+              <p>Si deseas contactarme para hacerme una consulta o para saber que más hago o como soy o simplemente para dejar un comentario, por favor sientete libre de hacerlo. Gracias</p>
           </div>
 
           <div>
             <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6592.27793182542!2d-77.76430441615047!3d-10.750514695116118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910737eef202956b%3A0xaada1c57241ebc99!2sBarranca!5e0!3m2!1ses-419!2spe!4v1647750923228!5m2!1ses-419!2spe"  allowfullscreen="" loading="lazy"></iframe>
-            <!--   <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=@-10.7505147,-77.7643044,16.25z/data=!4m5!3m4!1s0x910737eef202956b:0xaada1c57241ebc99!8m2!3d-10.7525374!4d-77.7599218?hl=es-419"
-                  frameborder="0" allowfullscreen></iframe> -->
+
           </div>
 
           <div class="row mt-5">
@@ -22,29 +20,50 @@
                   <div class="info">
                       <div class="address">
                           <i class="bi bi-geo-alt"></i>
-                          <h4>Location:</h4>
-                          <p>A108 Adam Street, New York, NY 535022</p>
+                          <h3>Ubicación:</h3>
+                          <h6>Barranca, Lima - Perú</h6>
                       </div>
 
                       <div class="email">
                           <i class="bi bi-envelope"></i>
-                          <h4>Email:</h4>
-                          <p>info@example.com</p>
+                          <h3>Correo Electrónico:</h3>
+                          <h6>milagros.lc2021@gmail.com</h6>
                       </div>
 
                       <div class="phone">
                           <i class="bi bi-phone"></i>
-                          <h4>Call:</h4>
-                          <p>+1 5589 55488 55s</p>
+                          <h3>Llamar:</h3>
+                          <h6>+51 993 408 007</h6>
                       </div>
 
                   </div>
 
               </div>
 
+            <!--   <form name="contact" method="POST" data-netlify="true">
+                <p>
+                  <label>Your Name: <input type="text" name="name" /></label>
+                </p>
+                <p>
+                  <label>Your Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                  <label>Your Role: <select name="role[]" multiple>
+                    <option value="leader">Leader</option>
+                    <option value="follower">Follower</option>
+                  </select></label>
+                </p>
+                <p>
+                  <label>Message: <textarea name="message"></textarea></label>
+                </p>
+                <p>
+                  <button type="submit">Send</button>
+                </p>
+              </form> -->
+
               <div class="col-lg-8 mt-5 mt-lg-0">
 
-                  <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                 <!--  <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                       <div class="row">
                           <div class="col-md-6 form-group">
                               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -65,8 +84,23 @@
                           <div class="sent-message">Your message has been sent. Thank you!</div>
                       </div>
                       <div class="text-center"><button type="submit">Send Message</button></div>
-                  </form>
+                  </form> -->
 
+
+                  <form name="contact" role="form" class="php-email-form" method="POST" data-netlify="true">
+                    <div class="row">
+                    <div class="col-md-6 form-group">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Correo Electrónico" required>
+                </div>
+              </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
+              </div>
+                      <div class="text-center mt-2"><button type="submit">Enviar</button></div>
+                  </form>
               </div>
 
           </div>

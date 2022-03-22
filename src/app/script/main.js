@@ -1,4 +1,4 @@
-
+import 'http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js'
 
 (function() {
   "use strict";

@@ -3,11 +3,26 @@
 # Resume
 --------------------------------------------------------------*/
 .resume{
-  padding-top:90px;
+  padding-top:40px;
+  padding-bottom: 40px;
+}
+h2{
+  font-family: 'Londrina Solid', cursive;
+}
+
+p{
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size:21px;
+
+}
+li{
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size:21px;
 }
 
 .resume .resume-title {
-  font-size: 26px;
+  font-size: 28px;
+  font-family: 'Londrina Solid', cursive;
   font-weight: 400;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -23,9 +38,9 @@
 
 .resume .resume-item h4 {
   line-height: 18px;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Darker Grotesque', sans-serif;
   color: #1d685f;
   margin-bottom: 10px;
 }
