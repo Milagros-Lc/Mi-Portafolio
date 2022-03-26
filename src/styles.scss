@@ -10,8 +10,14 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    color: #444444;
+    color: black;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/070/900/non_2x/abstract-technology-or-medical-concept-white-and-gray-glowing-hexagons-shape-pattern-background-vector.jpg");
+   /*  background-image: url("https://i.pinimg.com/736x/7e/c2/6d/7ec26dcaaa819a17d117735191a69450.jpg"); */
+/*     background-image: url("https://media.istockphoto.com/vectors/modern-abstract-background-of-chaotically-moving-triangles-vector-id1200057525?b=1&k=20&m=1200057525&s=612x612&w=0&h=bqt8m9SBcRtbe3iub62_APav2QL8BpZnB_LQaE3U8jg=");
+ */background-repeat: no-repeat;
+background-size:cover;
 }
+
 
 a {
     color: #34b7a7;

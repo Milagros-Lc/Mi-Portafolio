@@ -7,8 +7,25 @@ h2{
 
 p{
   font-family: 'Darker Grotesque', sans-serif;
-  font-size:21px;
+  font-size:18px;
 
+}
+.cardPortfolio{
+  width: 550px
+  ;
+}
+.card-text{
+  margin-top:10px;
+  margin-bottom:20px;
+}
+.card-header{
+  font-family: 'Londrina Solid', cursive;
+}
+.portfolio{
+  margin:80px;
+}
+.section-title{
+  padding-left: 50px;
 }
 
  .btn-portfolio {
@@ -30,7 +47,7 @@ p{
   background: #3dc8b7;
 }
 .portfolioContent{
-  margin-top:100px;
+  margin-top:110px;
 }
 .portfolio .portfolio-item {
   margin-bottom: 30px;
